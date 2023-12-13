@@ -1,0 +1,88 @@
+.form-box {
+    text-align: center;
+    background-color: lightgray;
+    border: 10px solid green;
+    margin: 20px;
+    left: 35%;
+    position: absolute;
+    width: 300px;
+    padding: 50px;
+    top: 30%;
+}
+
+input {
+    width: 200px;
+    margin: 5px;
+    padding: 5px;
+}
+
+input[type=submit] {
+    width: 120px;
+    border: none;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+}
+
+.nav-ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: gray;
+    margin: 0;
+    overflow: hidden;
+}
+
+.nav-li {
+    float: right;
+}
+
+.nav-li.float-left {
+    float: left;
+}
+
+.nav-li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 14px 16px;
+}
+
+.nav-li a:hover:not(.active) {
+    background-color: dimgray;
+}
+
+.active {
+    background-color: green;
+}
+
+.default-image {
+    width: 100%;
+    opacity: 0.5;
+}
+
+body {
+    margin: 0px;
+}
+
+.food-item-box{
+    background-color: lightgray;
+    width: 200px;
+    height: 251px;
+    border: 3px solid green;
+    padding: 15px;
+    margin: 25px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.small-image{
+    width: 200px;
+}

@@ -1,0 +1,12 @@
+E:\final_project_17_version\src\main\java\controllers\user\LogoutController.java
+E:\final_project_17_version\src\main\java\controllers\AbstractController.java
+E:\final_project_17_version\src\main\java\constants\ApplicationConstants.java
+E:\final_project_17_version\src\main\java\model\entities\User.java
+E:\final_project_17_version\src\main\java\controllers\user\LoginController.java
+E:\final_project_17_version\src\main\java\controllers\user\RegistrationController.java
+E:\final_project_17_version\src\main\java\constants\JspConstants.java
+E:\final_project_17_version\src\main\java\model\dao\UserDao.java
+E:\final_project_17_version\src\main\java\model\services\UserService.java
+E:\final_project_17_version\src\main\java\constants\DbConstants.java
+E:\final_project_17_version\src\main\java\model\db\ConnectionManager.java
+E:\final_project_17_version\src\main\java\model\db\PropertiesManager.java

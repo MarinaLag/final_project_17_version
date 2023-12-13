@@ -1,0 +1,12 @@
+model\db\ConnectionManager.class
+model\entities\User.class
+constants\ApplicationConstants.class
+constants\JspConstants.class
+controllers\user\LoginController.class
+controllers\user\RegistrationController.class
+controllers\AbstractController.class
+model\db\PropertiesManager.class
+model\dao\UserDao.class
+controllers\user\LogoutController.class
+constants\DbConstants.class
+model\services\UserService.class
