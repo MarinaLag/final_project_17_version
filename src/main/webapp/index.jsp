@@ -11,6 +11,5 @@
     <h1 style="position:absolute; top:50%; width:100%; text-align:center;">
         The most tasty pizza!!!
     </h1>
-
 </body>
 </html>

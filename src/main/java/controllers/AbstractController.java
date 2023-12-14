@@ -6,19 +6,22 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import model.services.FoodService;
 import model.services.UserService;
 
 import java.io.IOException;
 
 import static constants.JspConstants.MESSAGE_ATTR;
 
-
+@WebServlet(name = "abstractController")
 public abstract class AbstractController extends HttpServlet {
     protected UserService userService;
+    protected FoodService foodService;
 
     @Override
     public void init() throws ServletException {
         userService = UserService.getInstance();
+        foodService = FoodService.getInstance();
     }
 
     @Override
