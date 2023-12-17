@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>by.itclass</groupId>
-    <artifactId>final_project_2211</artifactId>
+    <artifactId>final_project_17_version</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
-    <name>final_project_2211 Maven Webapp</name>
+    <name>final_project_17_version Maven Webapp</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -43,7 +43,7 @@
     </dependencies>
 
     <build>
-        <finalName>final_project_2211</finalName>
+        <finalName>final_project_17_version</finalName>
         <plugins>
             <plugin>
                 <groupId>org.eclipse.jetty</groupId>
