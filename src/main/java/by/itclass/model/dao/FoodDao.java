@@ -21,7 +21,7 @@ public class FoodDao {
     }
 
     public List<FoodItem> getFoodItemsByType(int foodType) {
-        var items = new ArrayList<FoodItem>();  // List <FoodItem> items = new ArrayList<FoodItem>()
+        var items = new ArrayList<FoodItem>();  // List <FoodItem> items = new ArrayList<>()
         try (var cn = ConnectionManager.getConnection();
              var ps = cn.prepareStatement(SELECT_FOOD_ITEMS_BY_TYPE)) {
             ps.setInt(1, foodType);

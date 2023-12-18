@@ -24,6 +24,7 @@ public class MenuController extends AbstractController {
         forwardUrl(req, resp, HOME_JSP);
     }
 
+    // взависимости от 1 или 2 (атрибуда) даст список
     private void enrichRequest(HttpServletRequest req, int foodType, List<FoodItem> items) {
         switch (foodType) {
             case 1 -> req.setAttribute(PIZZA_ATTR, items);

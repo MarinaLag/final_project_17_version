@@ -9,7 +9,7 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode  // Equals и HashCode
 public class FoodItem {
     private int id;
-    private int type;
+    private int type; // тип пицца-1 или питье-2
     private String name;
     private double price;
 }

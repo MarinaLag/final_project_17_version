@@ -8,9 +8,6 @@
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-    <p>
-        <a href="<%=ApplicationConstants.LOGOUT_CONTROLLER%>">Logout</a>
-    </p>
     <jsp:include page="<%=JspConstants.MENU_JSP%>"/>
     <h2>Hello ${user.name}</h2>
     <h1>Some content will be place here.....i.e. slider</h1>
