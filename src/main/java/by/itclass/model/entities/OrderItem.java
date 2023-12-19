@@ -8,9 +8,9 @@ import lombok.RequiredArgsConstructor;
 @EqualsAndHashCode
 @RequiredArgsConstructor
 public class OrderItem {
-    private String orderId;
-    private final FoodItem item;
-    private  final int quantity;
+    private String orderId;   //
+    private final FoodItem foodItem; // что выбрано
+    private  final int quantity; // кол-во
 
 
 

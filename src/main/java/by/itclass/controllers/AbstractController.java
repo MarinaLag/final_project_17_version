@@ -1,5 +1,6 @@
 package by.itclass.controllers;
 
+import by.itclass.model.services.CartService;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -18,11 +19,13 @@ public abstract class AbstractController extends HttpServlet {
     // инициализация
     protected UserService userService;
     protected FoodService foodService;
+    protected CartService cartService;
 
     @Override
     public void init() throws ServletException {
         userService = UserService.getInstance();
         foodService = FoodService.getInstance();
+        cartService = CartService.getInstance();
     }
 
     @Override

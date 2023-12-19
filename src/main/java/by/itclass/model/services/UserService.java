@@ -14,7 +14,10 @@ public class UserService {
     }
 
     public static UserService getInstance(){
-        return Objects.isNull(service) ? new UserService() : service;
+        if(Objects.isNull(service)){
+            service = new UserService();
+        }
+        return service;
     }
 
     public User getUser(String login, String password){

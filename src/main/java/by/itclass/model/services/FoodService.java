@@ -15,7 +15,10 @@ public class FoodService {
     }
 
     public static FoodService getInstance(){
-        return Objects.isNull(service) ? new FoodService() :service;
+        if( Objects.isNull(service)){
+            service = new FoodService();
+        }
+        return service;
     }
 
     public List<FoodItem> getFoodItemsByType (int foodType){
