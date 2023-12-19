@@ -29,7 +29,7 @@
                                 <input type="hidden" name="<%=JspConstants.FOOD_TYPE_PARAM%>" value="${orderItem.foodItem.type}">
                                 <input type="hidden" name="<%=JspConstants.FOOD_NAME_PARAM%>" value="${orderItem.foodItem.name}">
                                 <input type="hidden" name="<%=JspConstants.FOOD_PRICE_PARAM%>" value="${orderItem.foodItem.price}">
-                                <input type="hidden" name="<%=JspConstants.FOOD_QUANTITY_PARAM%>" value="${foodItem.quantity}">
+                                <input type="hidden" name="<%=JspConstants.FOOD_QUANTITY_PARAM%>" value="${orderItem.quantity}">
                                 <input type="submit" value="Remove from Cart">
                             </form>
                 </div>
